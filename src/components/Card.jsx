@@ -14,7 +14,7 @@ const Card = ({ name, image, id, price, type }) => {
     dispatch(AddItem({ id, name, price, image, qty: 1 }));
 
     // ✅ Show toast notification
-    toast.success(`${name} added....`, {
+    toast.success(`${name} added.... `, {
       position: "top-right",
       autoClose: 2000,
       style: {
